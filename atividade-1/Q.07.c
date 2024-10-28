@@ -3,7 +3,7 @@ int main() {
     float salario;
     float imposto;
     float valor_final;
-
+   
     printf("Digite o salario:");
     scanf("%f" , &salario);
     printf("Salario: %f \n" , salario);
