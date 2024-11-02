@@ -12,7 +12,7 @@ int main(){
     printf("Seu salario %f" , salario);
 
 
-
+    
 
 
 }
