@@ -2,16 +2,14 @@
 
 int main()
 {
+    int soma = 0;
     
-    int soma = 0, proximo=0;
-    
-    for(int i = 1; i <=5; i++){
-        
+    for (int i = 1; i <= 5; i++) {
         printf("%d\n", i);
-        soma = proximo + i;
-        proximo = soma;
+        soma += i; 
     }
-    printf("Soma %d\n", soma);
-
-    return 0;
+    
+    printf("Soma: %d\n", soma); 
+    
+    return 0;
 }
